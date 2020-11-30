@@ -1,0 +1,14 @@
+{
+  "name": "TestKV",
+  "version": "1.0.0",
+  "tables": {
+    "Zone_1": {
+      "columns": {
+        "path": {"type": {"key": "string", "min": 1, "max": "unlimited"}},
+        "data": {"type": {"key": "string", "value": "string", "min": 1, "max": "unlimited"}}
+      },
+      "indexes": [["path"]],
+      "isRoot": true
+    }
+  }
+}
